@@ -2,6 +2,8 @@
 
 Create inputs for HUMMR Program - a Quantum Chemistry program for performing MR Calculations.
 
+Check out the website at [hummr-input-builder.streamlit.app](https://hummr-input-builder.streamlit.app/)
+
 This is a web-based GUI tool for generating input files for the HUMMR Program and allows users to easily configure calculation parameters.
 
 For a complete list of keywords, see the [HUMMR User Guide](https://hummr-dev-team.pages.cms.hu-berlin.de/hummr/)
