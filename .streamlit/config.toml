@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[server]
+headless=true
+maxUploadSize = 50  # in MB
+
+[client]
+showErrorDetails="viewer"
