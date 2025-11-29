@@ -9,9 +9,9 @@ def render_integrals_block():
     # ---------- Boolean options ----------
     bool_kw(integrals_opts, "AutoauxThresh1", "AutoauxThresh1", default=True)
     bool_kw(integrals_opts, "AutoauxThresh2", "AutoauxThresh2", default=True)
-    bool_kw(integrals_opts, "DoRISOMF", "DoRISOMF", default=False)
+    bool_kw(integrals_opts, "DoRISOMF", "DoRISOMF", default=True)
     bool_kw(integrals_opts, "OverlapFit", "OverlapFit", default=True)
-    bool_kw(integrals_opts, "UseApproximateFock", "UseApproximateFock", default=False)
+    bool_kw(integrals_opts, "UseApproximateFock", "UseApproximateFock", default=True)
 
     # ---------- Float options ----------
     float_kw(integrals_opts, "GridPointThresh", "GridPointThresh", 1e-12)

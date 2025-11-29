@@ -45,7 +45,7 @@ def render_casscf_block():
         int_kw(casscf_opts, "OutputLevel", "OutputLevel", 0)
         int_kw(casscf_opts, "NRMaxIter", "NRMaxIter", 50)
         int_kw(casscf_opts, "NRGuessMatDim", "NRGuessMatDim", 256)
-        int_kw(casscf_opts, "PCGMaxIter", "PCGMaxIter", 100)
+        # int_kw(casscf_opts, "PCGMaxIter", "PCGMaxIter", 100)
 
         # ---------- Boolean options ----------
         bool_kw(casscf_opts, "DoASSIST", "DoASSIST")

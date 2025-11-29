@@ -14,6 +14,6 @@ def render_spectra_block():
     float_kw(opts, "FWHM", "FWHM", default=1337.0)
     int_kw(opts, "NPoints", "NPoints", default=14000)
     bool_kw(opts, "Gaussian", "Gaussian", default=True)
-    bool_kw(opts, "Lorentzian", "Lorentzian", default=False)
+    bool_kw(opts, "Lorentzian", "Lorentzian", default=True)
 
     return opts

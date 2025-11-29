@@ -38,8 +38,8 @@ def render_plots_block():
         st.warning("Invalid RANGE input. Enter six numbers separated by spaces.")
 
     # Boolean options
-    bool_kw(opts, "PLOTDENSITY", "PLOTDENSITY", default=False)
-    bool_kw(opts, "PLOTSPINDENSITY", "PLOTSPINDENSITY", default=False)
+    bool_kw(opts, "PLOTDENSITY", "PLOTDENSITY", default=True)
+    bool_kw(opts, "PLOTSPINDENSITY", "PLOTSPINDENSITY", default=True)
 
     # String options
     str_kw(opts, "DENSITYFILENAME", "DENSITYFILENAME", default="Density.tmp")
